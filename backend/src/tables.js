@@ -1,9 +1,13 @@
 const UserManager = require("./models/UserManager");
+const BuildManager = require("./models/BuildManager");
+const ItemManager = require("./models/ItemManager");
 
 
 
 const managers = [
-  UserManager
+  UserManager,
+  BuildManager,
+  ItemManager
 ];
 // Create an empty object to hold data managers for different tables
 const tables = {};
